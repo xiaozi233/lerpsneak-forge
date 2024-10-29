@@ -1,0 +1,17 @@
+{
+  "package": "com.spxctreofficial.lerpsneak.mixin",
+  "plugin": "com.spxctreofficial.lerpsneak.init.AutoDiscoveryMixinPlugin",
+  "refmap": "mixins.${modid}.refmap.json",
+  "minVersion": "0.7",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "client.entity.MixinEntityPlayerSP",
+    "client.entity.player.MixinEntityPlayer",
+    "client.renderer.MixinEntityRender"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
