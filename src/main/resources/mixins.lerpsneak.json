@@ -1,0 +1,19 @@
+{
+	"package": "com.spxctreofficial.lerpsneak.mixin",
+	"required": true,
+	"refmap": "mixins.lerpsneak.refmap.json",
+	"target": "@env(DEFAULT)",
+	"minVersion": "0.8.5",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+	],
+	"server": [],
+	"client": [
+		"client.entity.MixinEntityPlayerSP",
+		"client.entity.player.MixinEntityPlayer",
+		"client.renderer.MixinEntityRender"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
